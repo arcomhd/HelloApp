@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                     , Toast.LENGTH_SHORT).show()
             }
             btnCount.setOnClickListener {
+                //update number
                 number++
                 txtNumber.text=number.toString()
             }
